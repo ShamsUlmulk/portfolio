@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mian Shams Ul Mulk | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Mian Shams Ul Mulk</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm <span>Mian Shams Ul Mulk</span></h2>
+      <p>Digital Marketer | Paid Media Specialist | SMM Expert</p>
+      <div class="hero-btns">
+        <a href="https://www.linkedin.com/in/mian-shams-ul-mulk" target="_blank" class="btn">LinkedIn</a>
+        <a href="#contact" class="btn secondary">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/250" alt="Profile Photo">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a professional digital marketer specializing in paid ads, social media management, 
+        and growth strategies. With years of experience, I’ve helped brands scale through data-driven campaigns.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section dark">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="grid">
+        <div class="card">SEO Optimization</div>
+        <div class="card">Paid Media Campaigns</div>
+        <div class="card">Social Media Marketing</div>
+        <div class="card">Content Strategy</div>
+        <div class="card">Landing Page Design</div>
+        <div class="card">Analytics & Reporting</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Portfolio / Blogs</h2>
+      <div class="grid">
+        <div class="card">Project 1</div>
+        <div class="card">Project 2</div>
+        <div class="card">Project 3</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section dark">
+    <div class="container">
+      <h2>What Clients Say</h2>
+      <div class="grid">
+        <div class="card">"Amazing results, highly recommended!"</div>
+        <div class="card">"Professional and reliable marketer."</div>
+        <div class="card">"Helped us scale our business online."</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Mian Shams Ul Mulk | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
