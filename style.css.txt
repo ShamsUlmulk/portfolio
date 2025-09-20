@@ -1,0 +1,151 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #111;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.navbar ul li a:hover {
+  color: #ff6600;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  background: #f0f0f0;
+}
+.hero-text h1 {
+  font-size: 2.2rem;
+}
+.hero-text span {
+  color: #ff6600;
+}
+.hero p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+.hero-btns .btn {
+  margin-right: 10px;
+}
+.hero-img img {
+  width: 220px;
+  border-radius: 50%;
+}
+
+/* Sections */
+section {
+  padding: 60px 10%;
+  text-align: center;
+}
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #111;
+}
+
+/* Services */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.card {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #ff6600;
+}
+
+/* Testimonials */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+.contact input, .contact textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.contact button {
+  padding: 12px;
+  background: #ff6600;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.contact button:hover {
+  background: #e65500;
+}
+.email-note {
+  margin-top: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+}
+
