@@ -1,9 +1,17 @@
-// Smooth Scroll
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
+// script.js
+
+document.addEventListener("DOMContentLoaded", function() {
+  const sections = document.querySelectorAll("section");
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.9;
+    sections.forEach(sec => {
+      const secTop = sec.getBoundingClientRect().top;
+      if (secTop < triggerBottom) {
+        sec.classList.add("visible");
+      }
     });
-  });
+  };
+  window.addEventListener("scroll", revealOnScroll);
+  // initial
+  revealOnScroll();
 });
