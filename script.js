@@ -1,17 +1,15 @@
-// script.js
-
-document.addEventListener("DOMContentLoaded", function() {
-  const sections = document.querySelectorAll("section");
+// Scroll reveal sections
+document.addEventListener('DOMContentLoaded', () => {
+  const sections = document.querySelectorAll('.section');
   const revealOnScroll = () => {
-    const triggerBottom = window.innerHeight * 0.9;
-    sections.forEach(sec => {
-      const secTop = sec.getBoundingClientRect().top;
-      if (secTop < triggerBottom) {
-        sec.classList.add("visible");
+    const triggerPosition = window.innerHeight * 0.85;
+    sections.forEach(section => {
+      const top = section.getBoundingClientRect().top;
+      if (top < triggerPosition) {
+        section.classList.add('visible');
       }
     });
   };
-  window.addEventListener("scroll", revealOnScroll);
-  // initial
+  window.addEventListener('scroll', revealOnScroll);
   revealOnScroll();
 });
