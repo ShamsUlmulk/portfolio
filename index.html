@@ -1,125 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mian Shams Ul Mulk | Digital Marketer & eCommerce Growth Expert</title>
-  <meta name="description" content="Mian Shams Ul Mulk — Digital Marketer, Paid Media Specialist. Services: SEO, Ads, eCommerce, Growth.">
-  <!-- Font Awesome for icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mian Shams Ul Mulk — Digital Marketer</title>
+  <meta name="description" content="Digital Marketer | Paid Media Specialist | eCommerce Growth Expert" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header (logo + socials + quick call) -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Home">
+        <!-- replace with your logo path -->
+        <img src="assets/logo.png" alt="Mian Shams Ul Mulk Logo" />
+      </a>
 
-  <!-- Header with logo, social icons, Quick Call button -->
-  <header class="top-navbar">
-    <div class="container nav-wrapper">
-      <div class="logo">
-        <img src="logo.png" alt="Mian Shams Ul Mulk Logo">
+      <div class="socials">
+        <a href="https://www.facebook.com/mian.shams.ul.mulk/" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+        <a href="https://www.instagram.com/mian.shamsulmulk/" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+        <a href="https://www.linkedin.com/in/mian-shams-ul-mulk/" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
       </div>
-      <div class="nav-icons">
-        <a href="https://www.facebook.com/mian.shams.ul.mulk" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/mian.shamsulmulk/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/mian-shams-ul-mulk" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=923005521519" class="quick-call-btn" target="_blank">
-          <i class="fas fa-phone"></i> Quick Call
-        </a>
-      </div>
+
+      <a class="btn btn--gradient" href="tel:+923005521519">📞 Quick Call</a>
     </div>
   </header>
 
-  <!-- Hero / Cover Section -->
-  <section id="hero" class="section hero-section">
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h1>Hi, I’m <span class="highlight">Mian Shams Ul Mulk</span></h1>
-        <p>Digital Marketer | Paid Media Specialist | eCommerce Growth Expert</p>
-        <div class="btn-group">
-          <a href="#services" class="btn primary">My Services</a>
-          <a href="#contact" class="btn outline">Hire Me</a>
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero__content">
+        <h1>Hi, I’m <span class="accent">Mian Shams Ul Mulk</span></h1>
+        <p class="lead">Digital Marketer • Paid Media Specialist • eCommerce Growth Expert</p>
+        <div class="cta-row">
+          <a class="btn" href="#services">My Services</a>
+          <a class="btn btn--ghost" href="#contact">Hire Me</a>
         </div>
       </div>
-      <div class="hero-img">
-        <img src="profile.jpg" alt="Mian Shams Ul Mulk">
+      <div class="hero__media">
+        <!-- replace with your image -->
+        <img src="assets/hero.jpg" alt="Portrait" />
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="section about-section">
-    <div class="container section-title">
-      <h2>About Me</h2>
-    </div>
-    <div class="container about-content">
-      <div class="about-img">
-        <img src="about-photo.jpg" alt="About me">
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="section__head">
+        <h2>About Me</h2>
+        <p>I’m a results-driven marketer with 5+ years in digital business and e-commerce. I build high-performing stores, launch & scale paid campaigns on Meta, Google & TikTok, and optimize SEO & CRO for measurable growth.</p>
       </div>
-      <div class="about-text">
-        <p>I am Mian Shams Ul Mulk, with 5+ years of experience in digital business and e‑commerce. I help build online stores, run ad campaigns on Meta, Google & TikTok, optimize SEO, and scale growth for clients.</p>
+      <ul class="highlights">
+        <li><strong>50M+ PKR</strong> ad spend managed</li>
+        <li><strong>ROAS 3–8x</strong> for D2C brands</li>
+        <li><strong>100k+</strong> monthly sessions generated</li>
+      </ul>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>My Services</h2>
+          <p>End-to-end growth support for eCommerce & lead-gen businesses.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Shopify Store Setup & Optimization</h3>
+            <p>Theme setup, product architecture, conversion-ready UX, speed & tracking.</p>
+          </article>
+          <article class="card">
+            <h3>Paid Ads (Meta, Google, TikTok)</h3>
+            <p>Full-funnel strategy, creative testing, budget scaling & daily optimization.</p>
+          </article>
+          <article class="card">
+            <h3>Content & AI-Assisted Creatives</h3>
+            <p>UGC scripts, hooks, offers & iteration for thumb-stopping ads.</p>
+          </article>
+          <article class="card">
+            <h3>SEO & CRO</h3>
+            <p>Keyword strategy, on-page SEO, landing pages, A/B testing & analytics.</p>
+          </article>
+          <article class="card">
+            <h3>Email Marketing & Automation</h3>
+            <p>Klaviyo/Mailchimp flows, segments, campaigns that drive LTV.</p>
+          </article>
+          <article class="card">
+            <h3>Analytics & Reporting</h3>
+            <p>GA4, pixel/server-side tracking, dashboards & actionable insights.</p>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="section services-section">
-    <div class="container section-title"><h2>My Services</h2></div>
-    <div class="container services-grid">
-      <div class="service-card">Shopify Store Setup & Optimization</div>
-      <div class="service-card">Product Research & Hunting</div>
-      <div class="service-card">Paid Advertising (Meta, Google, TikTok)</div>
-      <div class="service-card">Content & AI Ads Creation</div>
-      <div class="service-card">SEO (Search Engine Optimization)</div>
-      <div class="service-card">Email Marketing & Automation</div>
-      <div class="service-card">Conversion Rate Optimization (CRO)</div>
-      <div class="service-card">Analytics & Reporting</div>
-    </div>
-  </section>
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section container">
+      <div class="section__head">
+        <h2>Portfolio / Blogs</h2>
+        <p>Recent case studies and articles.</p>
+      </div>
+      <div class="grid-3">
+        <a class="work" href="#" target="_blank" rel="noopener">
+          <img src="assets/project1.jpg" alt="Project 1">
+          <span class="work__title">Project 1</span>
+        </a>
+        <a class="work" href="#" target="_blank" rel="noopener">
+          <img src="assets/project2.jpg" alt="Project 2">
+          <span class="work__title">Project 2</span>
+        </a>
+        <a class="work" href="#" target="_blank" rel="noopener">
+          <img src="assets/project3.jpg" alt="Project 3">
+          <span class="work__title">Project 3</span>
+        </a>
+      </div>
+    </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="section portfolio-section">
-    <div class="container section-title"><h2>Portfolio / Blogs</h2></div>
-    <div class="container portfolio-grid">
-      <div class="project-card"><img src="project1.jpg" alt="Project 1"><h4>Project 1</h4></div>
-      <div class="project-card"><img src="project2.jpg" alt="Project 2"><h4>Project 2</h4></div>
-      <div class="project-card"><img src="project3.jpg" alt="Project 3"><h4>Project 3</h4></div>
-      <div class="project-card"><img src="project4.jpg" alt="Project 4"><h4>Project 4</h4></div>
-    </div>
-  </section>
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>What Clients Say</h2>
+        </div>
+        <div class="quotes">
+          <blockquote>“Amazing results, highly recommended!” <cite>— Client A</cite></blockquote>
+          <blockquote>“Professional and reliable marketer.” <cite>— Client B</cite></blockquote>
+          <blockquote>“Helped us scale our business online.” <cite>— Client C</cite></blockquote>
+        </div>
+      </div>
+    </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="section testimonials-section">
-    <div class="container section-title"><h2>What Clients Say</h2></div>
-    <div class="container testimonial-cards">
-      <div class="testimonial-card">“Amazing results, highly recommended!”</div>
-      <div class="testimonial-card">“Professional and reliable marketer.”</div>
-      <div class="testimonial-card">“Helped us scale our business online.”</div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section contact-section">
-    <div class="container section-title"><h2>Get in Touch</h2></div>
-    <div class="container contact-form">
-      <form action="mailto:main.shamsulmulk@gmail.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn primary">Send</button>
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="section__head">
+        <h2>Get in Touch</h2>
+        <p>Let’s talk about your growth goals.</p>
+      </div>
+      <form class="contact" onsubmit="return handleSubmit(event)">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
       </form>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-content">
-      <p>© 2025 Mian Shams Ul Mulk | All Rights Reserved</p>
-      <div class="social-links">
-        <a href="https://facebook.com/mian.shams.ul.mulk" target="_blank">Facebook</a>
-        <a href="https://instagram.com/mian.shamsulmulk" target="_blank">Instagram</a>
-        <a href="https://linkedin.com/in/mian-shams-ul-mulk" target="_blank">LinkedIn</a>
+  <footer class="site-footer">
+    <div class="container foot">
+      <small>© <span id="year"></span> Mian Shams Ul Mulk • All Rights Reserved</small>
+      <div class="links">
+        <a href="https://www.facebook.com/mian.shams.ul.mulk/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/mian.shamsulmulk/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/mian-shams-ul-mulk/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </footer>
@@ -127,5 +164,7 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
 
 
