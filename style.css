@@ -28,7 +28,7 @@ body{
   background:#2b2d31;border-bottom:1px solid rgba(255,255,255,.06);
 }
 .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:16px}
-.brand img{height:42px;width:auto;display:block}
+.brand img{height:56px;width:auto;display:block}
 .socials{display:flex;gap:16px}
 .socials a{
   display:inline-grid;place-items:center;
@@ -91,4 +91,5 @@ textarea{resize:vertical}
 @media (max-width: 900px){
   .hero{grid-template-columns:1fr}
 }
+
 
